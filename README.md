@@ -11,15 +11,17 @@ To begin with, you'll need a git repository initialized locally with your basic 
    * If you haven't set up a git repository for your files yet (or didn't clone), proceed to the next step.
 
 2. Run `git init` locally in the folder with your web server files.
-   * If you want to also push to GitHub in addition to hosting on Heroku (recommended), you can follow the [Adding Existing Projects to GitHub through the command line Guide](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/)
+   * Follow the [Adding Existing Projects to GitHub through the command line Guide](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/)
 
-3. Commit all changes (if you haven't already with the above steps) using `git add .` and `git commit -am "<message>"`. If you haven't run into any errors at this point, you should be able to proceed to the next section.
-   * If you don't have one already, create a file called `.gitignore` in your repo. Inside of that file, add `node_modules/` as the first line and save the file. This file will allow you to tell git to not track files such as those in the `node_modules` folder. Now, git will no longer track `node_modules` files.
-   * See [GitHub gitignore Documentation](https://help.github.com/articles/ignoring-files/)
-   Additonal resources:
-    * [What is the difference between 'git add .' and 'git add -A'?](https://stackoverflow.com/questions/572549/difference-between-git-add-a-and-git-add)
-    * [When to use 'git add .; git commit -m "message"' vs 'git commit -am "message"?](https://stackoverflow.com/questions/3629545/is-git-commit-am-redundant-if-i-do-git-add-before)
-    * [RTFM](https://git-scm.com/docs/git-commit)
+3. Create a file called `.gitignore` in your repo. Inside of that file, add `node_modules/` as the first line and save the file. This file will allow you to tell git to not track files such as those in the `node_modules` folder. Now, git will no longer track `node_modules` files.
+   * See also [GitHub gitignore Documentation](https://help.github.com/articles/ignoring-files/)
+
+4. Commit all changes (if you haven't already with the above steps) using `git add .` and `git commit -am "<message>"`. If you haven't run into any errors at this point, you should be able to proceed to the next section.
+
+  * Additonal resources:
+      * [What is the difference between 'git add .' and 'git add -A'?](https://stackoverflow.com/questions/572549/difference-between-git-add-a-and-git-add)
+      * [When to use 'git add .; git commit -m "message"' vs 'git commit -am "message"?](https://stackoverflow.com/questions/3629545/is-git-commit-am-redundant-if-i-do-git-add-before)
+      * [RTFM](https://git-scm.com/docs/git-commit)
 
 
 ### Steps to Deploy
