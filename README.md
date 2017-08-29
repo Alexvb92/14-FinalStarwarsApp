@@ -10,8 +10,8 @@ To begin with, you'll need a git repository initialized locally with your basic 
    * If you cloned from a remote repository and then wrote/committed your code to the local clone, you should be set and can skip these steps and go straight to deploying.
    * If you haven't set up a git repository for your files yet (or didn't clone), proceed to the next step.
 
-2. Run `git init` locally in the folder with your web server files.
-   * Follow the [Adding Existing Projects to GitHub through the command line Guide](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/)
+2. Initialize your local repo and push to GitHub.
+   * Follow the steps here: [Adding Existing Projects to GitHub through the command line Guide](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/)
 
 3. If it doesn't exist, create a file called `.gitignore` in your repo. Inside of that file, add `node_modules/` as the first line and save the file. This file will allow you to tell git to not track files such as those in the `node_modules` folder. Now, git will no longer track `node_modules` files.
    * See also [GitHub gitignore Documentation](https://help.github.com/articles/ignoring-files/)
