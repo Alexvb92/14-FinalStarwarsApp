@@ -16,7 +16,7 @@ To begin with, you'll need a git repository initialized locally with your basic 
 3. If it doesn't exist, create a file called `.gitignore` in your repo. Inside of that file, add `node_modules/` as the first line and save the file. This file will allow you to tell git to not track files such as those in the `node_modules` folder. Now, git will no longer track `node_modules` files.
    * See also [GitHub gitignore Documentation](https://help.github.com/articles/ignoring-files/)
 
-4. Commit all changes (if you haven't already with the above steps) using `git add .` and `git commit -am "<message>"`. If you haven't run into any errors at this point, you should be able to proceed to the next section.
+4. Commit all changes (if you haven't already with the above steps) using `git add .` and `git commit -am "<message>"`. Then `git push`. If you haven't run into any errors at this point, you should be able to proceed to the next section.
 
   * Additonal resources:
       * [What is the difference between 'git add .' and 'git add -A'?](https://stackoverflow.com/questions/572549/difference-between-git-add-a-and-git-add)
